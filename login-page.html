@@ -1,0 +1,68 @@
+<html>
+  <head>
+    <title>Login / Sign Up</title>
+    <style>
+      body {
+        background-color: white;
+      }
+      h1 {
+        color: #56af4c;
+        text-align: center;
+        margin-top: 50%;
+      }
+      form {
+        width: 50%;
+        margin: 0 auto;
+        background-color: transparent;
+        padding: 20px;
+
+        border-radius: 5px;
+      }
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+      input[type="text"], input[type="password"], input[type="email"] {
+        width: 100%;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: transparent;
+        margin-bottom: 20px;
+        box-sizing: border-box;
+      }
+       input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      input[type="submit"]:hover {
+        background-color: green;
+      }
+      .alt-text {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body background="https://entrackr.com/storage/2018/01/bigbasket-image-1.jpg" style="background-repeat: no-repeat;background-size: 100% 100%;">
+    
+    <h1>Login / Sign Up</h1>
+    <form>
+      <h2>Login</h2>
+      <fieldset>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email address">
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" placeholder="Enter your password">
+      <input type="submit" value="Login">
+      <p class="alt-text">Nahi Pata ?? <a href="#">Click here</a></p>
+    </fieldset>
+    </form>
+
+  </body>
+</html>

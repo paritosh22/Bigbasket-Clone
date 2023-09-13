@@ -1,0 +1,40 @@
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment form</title>
+ </head>
+   
+ <body background="https://entrackr.com/storage/2018/01/bigbasket-image-1.jpg" style="background-repeat: no-repeat;background-size: 100% 100%;"> 
+    <form>
+        <h1 align="center">Payment form </h1>
+        <h3>Contact Information</h3>
+        <p>Requried fields * </p>
+    <fieldset>
+      <p>First Name:*<input type="text" required style="background-color: transparent;"></p>
+      <p>Last Name:*<input type="text" required style="background-color: transparent;"></p>
+      <br>
+      <p>Gender*</p>
+      <p><input type="radio" name="gender" id="gender">Male <input type="radio" name="gender" id="gender">Female <input type="radio" name="gender" id="gender">others</p>
+      <br>
+      <p>Address:*<textarea name="address" id="address" cols="60" rows="05" required style="background-color: transparent;"> </textarea></p>
+      <p>Pin Code:*<input type="pin code" required></p>
+      <p>E-mail:*<input type="email" required></p>
+      <p>Contact Number:*<input type="number" name="number" id="number" required style="background-color: transparent;"></p>
+      <h3>Card Information*</h3>
+      <p>Card Type <select name="" id="" required>
+        <option value="">--Select the card--</option>
+        <option value="visa">Visa</option>
+        <option value="master-card">mastercard</option>
+        <option value="rupay">Rupay</option>
+      </select>
+      </p>
+      <p>Card number*<input type="number"></p>
+
+      <p>Expiry date*<input type="date" name="exp-date" id="exp-date" required></p>
+      <p>CVV*<input type="password" required></p>
+      <input type="submit" value="Pay Now">
+    </fieldset>
+  </form>
+</html>
