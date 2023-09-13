@@ -4,3 +4,5 @@ It Contain three pages :-
 1. Sign-up page
 2. Home page
 3. Payment Form
+
+CSS is created inside the HTML file.
